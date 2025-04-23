@@ -5,7 +5,7 @@ Focus on web development, with the focus on:
 - Ruby 
 - Elixir
 
-This configuration uses [lazy vim] (https://github.com/LazyVim/LazyVim) as package manager. 
+This configuration uses [lazy vim](https://github.com/LazyVim/LazyVim) as package manager. 
 
 ## Plugins  
 - [catppuccino](https://github.com/catppuccin/nvim)
@@ -21,7 +21,7 @@ See below what needs to be done, to work with this config.
 Some things are optional, like theming for LazyGit. 
 
 ## Lazy git theming (optional)
-For using a catpuccino theme in lazygit we need to do the following:
+For using a catpuccino theme in lazygit we need to do the following steps:
 
 ### Step 1 
 Run the commands below for installing the theme:
