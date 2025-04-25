@@ -1,7 +1,7 @@
 # Neovim setup
 Still WIP
 
-Focus on web development, with the focus on:
+Focusing on web development, with the following languages:
 - Ruby 
 - Elixir
 
@@ -10,7 +10,6 @@ This configuration uses [lazy vim](https://github.com/LazyVim/LazyVim) as packag
 ## Plugins  
 - [catppuccino](https://github.com/catppuccin/nvim)
 - [lazygit](https://github.com/jesseduffield/lazygit)
-- [mason](https://github.com/williamboman/mason.nvim) 
 - [none-ls](https://github.com/nvimtools/none-ls.nvim)
 - [telescopj](https://github.com/nvim-telescope/telescope.nvim)
 - [nvim tree](https://github.com/nvim-tree/nvim-tree.lua)
@@ -19,6 +18,9 @@ This configuration uses [lazy vim](https://github.com/LazyVim/LazyVim) as packag
 When using this config, you will need some extra dependencies.
 See below what needs to be done, to work with this config. 
 Some things are optional, like theming for LazyGit. 
+
+## Mise
+I'm currently using [mise](https://mise.jdx.dev/getting-started.html) for installing programming runtimes.
 
 ## Lazy git theming (optional)
 For using a catpuccino theme in lazygit we need to do the following steps:
@@ -42,8 +44,13 @@ theme:
 
 ## none-ls
 This configuration has format on save enabled and supports formatting for the following languages:
-- lua, which needs [stylua](https://github.com/JohnnyMorganz/StyLua)
+- lua, which needs [stylua](https://github.com/JohnnyMorganz/StyLua)    
 
 ## telescope
 Install [ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation) so you can use 'grep find'. 
+
+## lspconfig
+I'm using mise so the cmd for the ruby-lsp is mise specific 
+```cmd = { "mise", "x", "--", "ruby-lsp" }```
+
 
