@@ -14,6 +14,10 @@ This configuration uses [lazy vim](https://github.com/LazyVim/LazyVim) as packag
 - [telescopj](https://github.com/nvim-telescope/telescope.nvim)
 - [nvim tree](https://github.com/nvim-tree/nvim-tree.lua)
 - [treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context:)
+- [nvim-cmp](https://www.lazyvim.org/extras/coding/nvim-cmp)
+- [bqf](https://github.com/kevinhwang91/nvim-bqf)
+- [lsp-config](https://github.com/neovim/nvim-lspconfig)
 
 When using this config, you will need some extra dependencies.
 See below what needs to be done, to work with this config. 
