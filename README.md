@@ -18,6 +18,7 @@ This configuration uses [lazy vim](https://github.com/LazyVim/LazyVim) as packag
 - [nvim-cmp](https://www.lazyvim.org/extras/coding/nvim-cmp)
 - [bqf](https://github.com/kevinhwang91/nvim-bqf)
 - [lsp-config](https://github.com/neovim/nvim-lspconfig)
+- [conform](https://github.com/stevearc/conform.nvim?tab=readme-ov-file#setup)
 
 When using this config, you will need some extra dependencies.
 See below what needs to be done, to work with this config. 
@@ -57,4 +58,5 @@ Install [ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#insta
 I'm using mise so the cmd for the ruby-lsp is mise specific 
 ```cmd = { "mise", "x", "--", "ruby-lsp" }```
 
-
+## conform
+Install [erb-formatter](https://github.com/nebulab/erb-formatter) for formatting `*.erb`
